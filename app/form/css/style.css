@@ -1,0 +1,160 @@
+/*---------------------------------
+Common
+---------------------------------*/
+body {
+  margin: 0px;
+
+  background-color: #F2F2F2;
+
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+::-webkit-input-placeholder {
+  color: #d3d3d3;
+}
+
+h3 {
+  margin: 0px;
+  padding: 15px;
+
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/*---------------------------------
+Flexbox
+---------------------------------*/
+.container {
+  margin: 15px;
+  padding: 20px;
+
+  border: 1px solid lightgray;
+
+  list-style: none;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+
+  max-width: 600px;
+  margin:auto;
+}
+.container2{
+  margin: 10px;
+  padding: 5px;
+
+}
+
+.item {
+  padding: 2px;
+}
+
+/*---------------------------------
+Table
+---------------------------------*/
+
+table {
+
+
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid rgb(202, 199, 195);
+  padding: 6px 10px;
+  font-weight: lighter;
+
+}
+
+th {
+  background-color: #C2C1C0;
+}
+
+tbody td:first-child,td:last-child {
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #DFD8CC;
+}
+
+tbody tr:hover {
+/*  background-color: #EDE5D5; */
+}
+
+/*---------------------------------
+Button
+---------------------------------*/
+.btngroup {
+  text-align: right;
+  padding-top: 8px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 15px;
+  margin: 0px;
+}
+.btngroup2 {
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+}
+
+.btn {
+  display: inline-block;
+  line-height: 35px;
+  width: 100px;
+  background-color: #DFD8CC;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+label {
+  display: block;
+  font-weight: bold;
+}
+input {
+	margin: 8px;
+	padding: 5px;
+}
+.input_label {
+	display: inline-block;
+	width: 120px;
+}
+
+
+/* ##############  599px以下 ############## */
+@media ( max-width : 599px) {
+	body {
+		font-size: 1.0rem;
+	}
+	.input_label {
+		display: block;
+	}
+}
+
+/* ##############  600px以上 ############## */
+@media ( min-width : 600px) and ( max-width : 767px) {
+	.input_label {
+		display: block;
+	}
+	.container {
+		margin: 15px;
+		padding: 20px;
+		max-width: 100%;
+	}
+}
+
+/* ##############  768px以上 ############## */
+@media ( min-width : 768px) and ( max-width : 1189px){
+}
+
+/* ############## 1190px以上 ############## */
+@media ( min-width : 1190px) {
+
