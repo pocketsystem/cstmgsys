@@ -4,9 +4,8 @@ require_once '../common/message.php';
 require_once '../common/dbmanager.php';
 
 $delchk = isset($_POST['delchk']) ? $_POST['delchk'] : null;
-
 if (isset($_POST['delchk']) && is_array($_POST['delchk'])) {} else {
-    echo 'データ取得エラー発生。';
+    echo MSGE001;
 }
 
 try {
@@ -31,7 +30,5 @@ try {
     header('Location: ../form/showlist.php');
 
 } catch (PDOException $e) {
-    print "エラーメッセージ：{$e->getMessage()}";
+    echo $e->getMessage();
 }
-
-?>

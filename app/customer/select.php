@@ -4,10 +4,6 @@ require_once '../common/message.php';
 require_once '../common/dbmanager.php';
 require_once '../model/Customer.php';
 
-
-/*
- *
- */
 function showCustomer()
 {
 
@@ -45,9 +41,6 @@ function showCustomer()
     }
 }
 
-/*
- *
- */
 function showCustomerList()
 {
 
@@ -85,7 +78,4 @@ function showCustomerList()
         $out .= '</tr>';
     }
     return $out;
-
 }
-
-?>
