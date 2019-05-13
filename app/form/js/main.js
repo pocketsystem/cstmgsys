@@ -5,7 +5,7 @@ $(function () {
 			alert('削除対象を選択してください。');
 			return false;
 		}
-		
+
 		if (confirm('削除してよろしいですか？')) {
 			return true;
 		} else {

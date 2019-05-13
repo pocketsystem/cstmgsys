@@ -1,127 +1,133 @@
-
 @charset "UTF-8";
-/*!
- *
- * btn.css - https://ganapativs.github.io/btn.css
- * Version - 0.2.4
- * Demo: https://btn.surge.sh
- *
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
- * Copyright (c) 2016 Ganapati V S (@ganapativs)
- *
- */
-/* standalone - .btn-simple */
+
 .btn-default {
-  color: #fff;
+    color: #fff;
 }
+
 .btn-primary,
 .btn,
 .btn-lg,
 .btn-md,
 .btn-sm,
 .btn-xs {
-  color: #1d89ff;
+    color: #1d89ff;
 }
+
 .btn-warning {
-  color: #feab3a;
+    color: #feab3a;
 }
+
 .btn-danger {
-  color: #ff5964;
+    color: #ff5964;
 }
+
 .btn-success {
-  color: #28b78d;
+    color: #28b78d;
 }
+
 .btn-royal {
-  color: #bd2df5;
+    color: #bd2df5;
 }
+
 .btn,
 .btn-lg,
 .btn-md,
 .btn-sm,
 .btn-xs {
-  margin: 0;
-  padding: 0;
-  border-width: 0;
-  border-color: transparent;
-  background: transparent;
-  font-weight: 400;
-  cursor: pointer;
-  position: relative;
-  font-family: inherit;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    border-color: transparent;
+    background: transparent;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    font-family: inherit;
 }
+
 .btn-lg {
-  padding: 8px 15px;
-  font-size: 16px;
-  
+    padding: 8px 15px;
+    font-size: 16px;
+
 }
+
 .btn-md {
-  font-size: 12px;
-  
-  padding: 5px 14px;
-  height: 40px;
-  width: 100px;
+    font-size: 12px;
+
+    padding: 5px 14px;
+    height: 40px;
+    width: 100px;
 }
+
 .btn-sm {
-  padding: 4px 10px;
-  font-size: 14x;
-  
-  height: 40px;
-  width: 55px;
+    padding: 4px 10px;
+    font-size: 14x;
+
+    height: 40px;
+    width: 55px;
 }
+
 .btn-xs {
-  padding: 3px 8px;
-  font-size: 10px;
-  
-  height: 40px;
-  width: 60px;
+    padding: 3px 8px;
+    font-size: 10px;
+
+    height: 40px;
+    width: 60px;
 }
+
 .btn-simple {
-  margin: 0;
-  padding: 0;
-  border-width: 0;
-  border-color: transparent;
-  background: transparent;
-  font-weight: 400;
-  cursor: pointer;
-  position: relative;
-  
-  padding: 5px 12px;
-  overflow: hidden;
-  border-width: 0;
-  border-radius: 4px;
-  background: rgba(255,255,255,0.4);
-  color: #fff;
-  -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
-  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    border-color: transparent;
+    background: transparent;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+
+    padding: 5px 12px;
+    overflow: hidden;
+    border-width: 0;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.4);
+    color: #fff;
+    -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+    transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
 }
+
 .btn-simple:hover,
 .btn-simple:focus {
-  opacity: 0.75;
+    opacity: 0.75;
 }
+
 .btn-simple.btn-xs {
-  padding: 3px 10px;
-  font-size: 10px;
-  
+    padding: 3px 10px;
+    font-size: 10px;
+
 }
+
 .btn-simple.btn-sm {
-  padding: 4px 12px;
-  font-size: 14px;
-  
+    padding: 4px 12px;
+    font-size: 14px;
+
 }
+
 .btn-simple.btn-md {
-  font-size: 16px;
-  
-  padding: 5px 12px;
+    font-size: 16px;
+
+    padding: 5px 12px;
 }
+
 .btn-simple.btn-lg {
-  padding: 8px 15px;
-  font-size: 24px;
-  
+    padding: 8px 15px;
+    font-size: 24px;
+
 }
+
 .btn-simple.btn-default {
-  background: rgba(255,255,255,0.4);
+    background: rgba(255, 255, 255, 0.4);
 }
+
 .btn-simple.btn-primary {
-  background: #778899;
+    background: #778899;
 }

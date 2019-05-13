@@ -1,16 +1,19 @@
 <?php require_once '../common/prefecture.php'; ?>
-<?php //$pft = getPrefecture(); ?>
+<?php 
+?>
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="css/button.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Kosugi" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,200" rel="stylesheet">
     <title>顧客管理システム</title>
 </head>
+
 <body>
     <form method="POST" id="backform" action="showlist.php"></form>
     <form method="POST" action="../customer/insert.php">
@@ -62,9 +65,10 @@
             </div>
             <div class="btngroup2">
                 <button type="submit" class="btn-simple btn-md btn-primary">登録</button>
-                <button type="reset"  class="btn-simple btn-md btn-primary">クリア</button>
+                <button type="reset" class="btn-simple btn-md btn-primary">クリア</button>
             </div>
         </div>
     </form>
 </body>
+
 </html>
