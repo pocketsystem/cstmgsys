@@ -5,7 +5,7 @@ require_once '../common/dbmanager.php';
 
 $lname = isset($_POST['lname']) ? $_POST['lname'] : '';
 if (strlen($lname) <= 0) {
-    echo 'データ取得エラー発生。';
+    echo MSGE001;
     return;
 }
 
@@ -48,7 +48,5 @@ try {
     header('Location: ../form/showlist.php');
 
 } catch (PDOException $e) {
-    print "エラーメッセージ：{$e->getMessage()}";
+    echo $e->getMessage();
 }
-
-?>

@@ -20,4 +20,3 @@ function getDb()
         throw $e;
     }
 }
-?>
