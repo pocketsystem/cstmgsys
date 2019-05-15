@@ -1,6 +1,3 @@
-<?php require_once '../common/prefecture.php'; ?>
-<?php 
-?>
 <!DOCTYPE html>
 <html>
 
@@ -11,16 +8,19 @@
     <link rel="stylesheet" href="css/button.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Kosugi" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,200" rel="stylesheet">
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <title>顧客管理システム</title>
 </head>
 
 <body>
-    <form method="POST" id="backform" action="showlist.php"></form>
+    <form method="POST" id="bakfrm" action="showlist.php"></form>
     <form method="POST" action="../customer/insert.php">
         <h3>新規顧客登録
         </h3>
         <div class="btngroup">
-            <button type="submit" form="backform" class="btn-simple btn-md btn-primary">戻る</button>
+            <button type="button" form="bakfrm" class="btn-simple btn-md btn-primary" id="bakbtn">戻る</button>
         </div>
 
         <div class="container">
