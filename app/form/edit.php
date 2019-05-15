@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="css/button.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Kosugi" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,200" rel="stylesheet">
+
+   	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <title>顧客管理システム</title>
 </head>
 <body>

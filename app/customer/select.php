@@ -63,7 +63,7 @@ function showCustomerList()
     $out = '';
     while ($row = $stt->fetch(PDO::FETCH_ASSOC)) {
         $out .= '<tr>';
-        $out .= '   <td><input type="checkbox" form="deleteform" name="delchk[]" class="delchk" value="' . $row['CTMID'] . '"></td>';
+        $out .= '   <td><input type="checkbox" form="delfrm" name="delchk[]" class="delchk" value="' . $row['CTMID'] . '"></td>';
         $out .= '   <td>' . $row['CTMID'] . '</td>';
         $out .= '   <td>' . $row['CTYPENM'] . '</td>';
         $out .= '   <td>' . $row['LNAME'] . ' ' . $row['FNAME'] . '</td>';
